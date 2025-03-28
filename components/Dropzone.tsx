@@ -2,7 +2,7 @@
 
 import { db, storage } from '@/firebase';
 import { cn } from '@/lib/utils';
-// import { useUser } from '@clerk/clerk-react';
+
 import { useUser } from '@clerk/nextjs';
 import { addDoc, collection, doc, serverTimestamp, updateDoc } from 'firebase/firestore';
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
